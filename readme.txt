@@ -1,1 +1,0 @@
-No word to say
