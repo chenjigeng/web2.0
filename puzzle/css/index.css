@@ -1,0 +1,429 @@
+body {
+	background-color: #efe5d0
+}
+
+/*文字格式*/
+h1 {
+	text-align: center;
+	color: red;
+}
+
+p {
+	text-align: center;
+	color: red;
+	margin-bottom: 8px;
+}
+
+/*拼图*/
+#all {
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+}
+
+#puzzle {
+	width: 352px;
+	height: 352px;
+}
+
+/*控制按钮*/
+#control {
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 352px;
+}
+
+#upload {
+	cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+    width: 68px;
+    display: block;
+}
+
+#start {
+	color: white;
+    font-size: 20px;
+    width: 105px;
+    height: 40px;
+    margin-top: 25px;
+    background-color: #4487F6;
+    box-shadow: 3px 4px 2px 0px gray;
+    cursor: pointer;
+}
+
+#harder {
+	color: white;
+    font-size: 20px;
+    width: 105px;
+    height: 40px;
+    margin-top: 25px;
+    background-color: #4487F6;
+    box-shadow: 3px 4px 2px 0px gray;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+#change {
+	margin-left: 9px;
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    margin-top: 25px;
+    background-color: #4487F6;
+    box-shadow: 3px 4px 2px 0px gray;
+    width: 105px;
+    cursor: pointer;
+}
+
+/*显示步数以及时间*/
+#show {
+	margin-left: auto;
+    margin-right: auto;
+    width: 325px;
+    margin-bottom: 25px;
+}
+
+input[type="text"] {
+    height: 30px;
+    text-align: center;
+}
+
+input#time {
+    margin-right: 131px;
+}
+
+/*拼图主要内容*/
+#content {
+	background-color: gainsboro;
+	position: absolute;
+	width: 352px;
+	height: 352px;
+}
+
+/*四块拼图的样式*/
+.p4{
+	background-image: url(../static/panda.jpg);
+	background-size: 352px 352px;
+	position: absolute;
+	width: 86px;
+	height: 86px;
+	border: 1px solid #D4D4D4;
+	cursor: pointer;
+	transition: right 0.2s ease-out ,bottom 0.2s ease-out ,left 0.2s ease-out ,top 0.2s ease-out;
+}
+
+.p4:hover {
+	width: 87px;
+	height: 87px;
+}
+
+#d1 {
+	background-position: 0 0;
+	top : 0px;
+	left: 0px;
+}
+
+#d2 {
+	background-position: -88px 0;
+	top: 0px;
+	left: 88px;
+}
+
+#d3 {
+	background-position: -176px 0;
+	top: 0px;
+	left: 176px;
+}
+
+#d4 {
+	background-position: -264px 0;
+	top: 0px;
+	left: 264px;
+}
+
+#d5 {
+	background-position: 0 -88px;
+	top: 88px;
+	left: 0px;
+}
+
+#d6 {
+	background-position: -88px -88px;
+	top: 88px;
+	left: 88px;
+}
+
+#d7 {
+	background-position: -176px -88px;
+	top: 88px;
+	left: 176px;
+}
+
+#d8 {
+	background-position: -264px -88px;
+	top: 88px;
+	left: 264px;
+}
+
+#d9 {
+	background-position: 0 -176px;
+	top: 176px;
+	left: 0px;
+}
+
+#d10 {
+	background-position: -88px -176px;
+	top: 176px;
+	left: 88px;
+}
+
+#d11 {
+	background-position: -176px -176px;
+	top: 176px;
+	left: 176px;
+}
+
+#d12 {
+	background-position: -264px -176px;
+	top: 176px;
+	left: 264px;
+}
+
+#d13 {
+	background-position: 0 -264px;
+	top: 264px;
+	left: 0px;
+}
+
+#d14 {
+	background-position: -88px -264px;
+	top: 264px;
+	left: 88px;
+}
+
+#d15 {
+	background-position: -176px -264px;
+	top: 264px;
+	left: 176px;
+}
+
+/*五块拼图的样式*/
+.p5 {
+	background-size: 352px 352px;
+	background-image: url(../static/panda.jpg);
+	width: 70px;
+	height: 70px;
+	border: 1px solid #D4D4D4;
+	cursor: pointer;
+	transition: right 0.2s ease-out ,bottom 0.2s ease-out ,left 0.2s ease-out ,top 0.2s ease-out;
+	position: absolute;
+}
+
+.p5:hover {
+	width: 71px;
+	height: 71px;
+}
+
+#dd1 {
+	background-position: 0 0;
+	top: 0px;
+	left: 0px;
+}
+
+#dd2 {
+	background-position: -70px 0;
+	top: 0px;
+	left: 70px;
+}
+
+#dd3 {
+	background-position: -140px 0;
+	top: 0px;
+	left: 140px;
+}
+
+#dd4 {
+	background-position: -210px 0;
+	top: 0px;
+	left: 210px;
+}
+
+#dd5 {
+	background-position: -280px 0;
+	top: 0;
+	left: 280px;
+}
+
+#dd6 {
+	background-position: 0px -70px;
+	top: 70px;
+	left: 0;
+}
+
+#dd7 {
+	background-position: -70px -70px;
+	top: 70px;
+	left: 70px;
+}
+
+#dd8 {
+	background-position: -140px -70px;
+	top: 70px;
+	left: 140px;
+}
+
+#dd9 {
+	background-position: -210px -70px;
+	top: 70px;
+	left: 210px;
+}
+
+#dd10 {
+	background-position: -280px -70px;
+	top: 70px;
+	left: 280px;
+}
+
+#dd11 {
+	background-position: 0px -140px;
+	top: 140px;
+	left: 0px;
+}
+
+#dd12 {
+	background-position: -70px -140px;
+	top: 140px;
+	left: 70px;
+}
+
+#dd13 {
+	background-position: -140px -140px;
+	top: 140px;
+	left: 140px;
+}
+
+#dd14 {
+	background-position: -210px -140px;
+	top: 140px;
+	left: 210px;
+}
+
+#dd15 {
+	background-position: -280px -140px;
+	top: 140px;
+	left: 280px;
+}
+
+#dd16 {
+	background-position: 0px -210px;
+	top: 210px;
+	left: 0;
+}
+
+#dd17 {
+	background-position: -70px -210px;
+	top: 210px;
+	left: 70px;
+}
+
+#dd18 {
+	background-position: -140px -210px;
+	top: 210px;
+	left: 140px;
+}
+
+#dd19 {
+	background-position: -210px -210px;
+	top: 210px;
+	left: 210px;
+}
+
+#dd20 {
+	background-position: -280px -210px;
+	top: 210px;
+	left: 280px;
+}
+
+#dd21 {
+	background-position: 0px -280px;
+	top: 280px;
+	left: 0px;
+}
+
+#dd22 {
+	background-position: -70px -280px;
+	top: 280px;
+	left: 70px;
+}
+
+#dd23 {
+	background-position: -140px -280px;
+	top: 280px;
+	left: 140px;
+}
+
+#dd24 {
+	background-position: -210px -280px;
+	top: 280px;
+	left: 210px;
+}
+
+#dd25 {
+	background-position: -280px -280px;
+	top: 280px;
+	left: 280px;
+}	
+
+/*显示最终效果*/
+#show-result {
+	color: red;
+	text-align: center;
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	right: 269px;
+	top: 143px;
+}
+
+#show-re {
+	background-image: url(../static/panda.jpg);
+	background-size: 350px 350px;
+	width: 350px;
+	height: 350px;
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
+}
+
+/*第二张图*/
+.p_1 {
+	background-image: url(../static/star.jpg);
+}
+
+#show-result .p_1 {
+	background-image: url(../static/star.jpg);
+}
+
+/*第三张图*/
+.p_2 {
+	background-image: url(../static/naturo.jpg);
+}
+
+#show-result .p_2 {
+	background-image: url(../static/naturo.jpg);
+}
+
+/*原始图*/
+.p_3 {
+	background-image: url(../static/panda.jpg);
+}
+
+#show-result .p_3 {
+	background-image: url(../static/panda.jpg);
+}
+
+/*取消动画效果*/
+div .c {
+	transition: none;
+}

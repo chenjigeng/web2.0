@@ -1,0 +1,42 @@
+body {
+}
+
+table {
+	cell-spacing: 5px;
+	cell-padding: 5px;
+	border-collapse:collapse;
+}
+
+thead th{
+	color: white;
+	text-align: left;	
+	border: 1px solid #CCD1D2;
+	background-color: #041D82;
+	padding-left: 4px;
+	padding-right: 25px;
+	margin: 0px;
+}
+
+tr td{
+	border: 1px solid #CCD1D2;
+	padding-right: 5px;
+	padding-left: 4px;
+}
+
+tbody tr:nth-child(2n) {
+	background-color: #CCD1D2;
+}
+
+.click-odd {
+	background-color: #D8E1EB;
+	background-image: url(images/ascend.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.click-even {
+	background-color: #D8E1EB;
+	background-image: url(images/descend.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
