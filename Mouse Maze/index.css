@@ -1,0 +1,249 @@
+	/*页面基本样式*/
+body {
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	font-family: "Microsoft YaHei", Verdana, Geneva, sans-serif;
+}
+
+/*页面的文字*/
+h2 {
+	margin-top: 20px;
+	font-size: 30px;
+	margin-bottom: 10px;
+	font-weight: 100;
+	margin-left: -30px
+}
+
+h3 {
+	font-size: 23px;
+	margin: 0px;
+	margin-bottom: 0px;
+	font-weight: 100;
+	margin-left: -25px;
+}
+
+#tips1 {
+	position: absolute;
+	top:460px;
+	margin-left: 346px;
+}
+
+#tips2 {
+	position: absolute;
+	top:479px;
+	margin-left: 346px;
+}
+
+#luck {
+	position: absolute;
+	top: 548px;
+	margin-left: 346px;
+}
+
+/*结果显示*/
+#show-result {
+	text-align: center;
+	font-size: 20px;
+	margin-right: 62px;
+}
+
+
+/*迷宫*/
+#all {
+	position: absolute;
+	left: 400px;
+	top: 160px;
+	width: 500px;
+	height: 300px;
+	background-color: #EEEEEE;
+}
+
+/*墙的样式*/
+#top1 {
+	position: absolute;
+	top: 0px;
+	height: 49px;
+	width: 149px;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	border-bottom: 0;
+	border-right: none;
+}
+
+#top2 {
+	position: absolute;
+	top: 0px;
+	left: 150px;
+	height: 49px;
+	width: 200px;
+	border-top: 1px black solid;
+}
+
+#top3 {
+	position: absolute;
+	top: 0px;
+	left: 349px;
+	height: 49px;
+	width: 150px;
+	border-top: 1px black solid;
+	border-right: 1px black solid;
+}
+
+#wall-left {
+	position: absolute;
+	top: 50px;
+	width: 148px;
+	height: 150px;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	border-top: 0px;
+	border-bottom: 1px;
+}
+
+#wall2 {
+	position: absolute;
+	width: 98px;
+	height: 149px;
+	left: 200px;
+	top: 100px;
+	border: 1px black solid;
+	border-bottom: 0px;
+}
+
+#wall-right {
+	position: absolute;
+	top: 50px;
+	right: 0px;
+	width: 148px;
+	height: 150px;
+	border: 1px black solid;
+	border-top: 0px;
+	border-bottom: 0px;
+}
+
+#bottom1 {
+	position: absolute;
+	bottom: 0px;
+	width: 199px;
+	height: 49px;
+	border: 1px black solid;
+	border-top: 0px;
+	border-right: none;
+}
+
+#bottom2 {
+	position: absolute;
+	bottom: 0px;
+	left: 200px;
+	width: 100px;
+	height: 49px;
+	border-bottom: 1px black solid;
+}
+
+#bottom3 {
+	position: absolute;
+	bottom: 0px;
+	left: 300px;
+	width: 199px;
+	height: 49px;
+	border-bottom: 1px black solid;
+	border-right: 1px black solid;
+}
+#wall-text {
+	position: absolute;
+	top: 530px;
+    left: 582px;
+	width: 100px;
+	height: 25px;
+	background-color: #EEEEEE;
+	border: 1px black solid;
+}
+
+/*路的样式*/
+.road {
+	background-color: #FFFFFF;
+	cursor: hand;
+}
+
+#road4 {
+	position: absolute;
+	width: 150px;
+	height: 48px;
+	bottom: 50px;
+	border-bottom: 1px black solid;
+	border-top: 1px black solid;
+
+}
+
+#road1 {
+	position: absolute;
+	width: 50px;
+	height: 198px;
+	top: 50px;
+	left: 150px;
+	border-top: 1px black solid;
+	border-bottom: 1px black solid;
+}
+
+#road2 {
+	position: absolute;
+	width: 150px;
+	height: 49px;
+	top: 50px;
+	left: 200px;
+	border-top: 1px black solid;
+}
+
+#road3 {
+	position: absolute;
+	width: 50px;
+	height: 149px;
+	left: 300px;
+	top: 100px;
+	border-bottom: 1px black solid;
+}
+
+#road5 {
+	position: absolute;
+	width: 150px;
+	height: 48px;
+	right: 0px;
+	bottom: 50px;
+	border-bottom: 1px black solid;
+	border-top: 1px black solid;	
+}
+
+/*起点*/
+#start {
+	line-height: 45px;
+	font-size: 30px;
+	font-weight: 200;
+	position: absolute;
+	left: 0px;
+	top: 204px;
+	width: 40px;
+	height: 40px;
+	background-color: #79F977;
+	border: 1px black solid;
+	cursor: hand;
+}
+
+/*终点*/
+#end {
+	line-height: 45px;
+	font-size: 30px;
+	font-weight: 200;
+	position: absolute;
+	right: 0px;
+	top: 204px;
+	width: 40px;
+	height: 40px;
+	background-color: #707EC3;
+	border: 1px black solid;
+	cursor: hand;
+}
+
+
