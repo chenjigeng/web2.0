@@ -1,0 +1,288 @@
+ body {
+ 	font-family: "Microsoft YaHei";
+ 	font-weight: bold;
+ 	text-align: center;
+ }
+ .apb{
+ 	position:absolute;
+ 	width: 35px;
+	height: 35px;
+	background: url("assets/images/atplus_white.png") no-repeat center;
+	background-color: #999fd3;
+	left: 50%;
+	bottom: 0px;
+	border-radius: 50%;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#button {
+	position: absolute;
+	bottom: 200px;
+	left: 50%;
+	width: 200px;
+	height: 200px;
+	background-color: yellow;
+}
+
+.info {
+	position: absolute;
+	bottom: 200px;
+	left: 50%;
+	border-radius: 50%;
+	overflow: hidden;
+	width: 0px;
+	height: 0px;
+	background-color: gray;
+	color: white;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.info img {
+	display: none;
+}
+
+.info span {
+	display: none;
+}
+
+ul {
+	list-style: none;
+}
+
+#button:hover .user {
+	position: absolute;
+	top : 10px;
+	left: 40px;
+}
+
+#button:hover .user > span {
+	position: relative;
+	left: 9px;
+	top: -6px;
+	font-size: 1.5em;
+}
+#button:hover .comment {
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	font-size: 40px;
+}
+
+#button:hover .comment > span {
+	position: relative;
+	left: 10px;
+}
+#button:hover .posted {
+	position: absolute;
+	top: 64%;
+	left: 14%;
+	color: #079E6E;
+	font-size: 1.5em;
+}
+
+#button:hover .like {
+	position: absolute;
+	top: 64%;
+	left: 50%;
+	color: #079E6E;
+	font-size: 1.5em;	
+}
+#button:hover .posted > span {
+	position: relative;
+	left: 5px;
+	top: -5px;
+}
+
+#button:hover .like > span {
+	position: relative;
+	left: 5px;
+	top: -5px;
+}
+
+.mask {
+	position: absolute;
+	bottom: 200px;
+	left: 50%;
+	width: 37px;
+	height: 37px;
+	opacity: 0;
+	background-color: gray;
+	border-radius: 50%;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;	
+}
+
+.history {
+	position: absolute;
+	bottom: 200px;
+	left: 50%;
+	width: 37px;
+	height: 37px;
+	opacity: 0;
+	background-color: gray;
+	border-radius: 50%;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;	
+}
+
+.message {
+	opacity: 0;
+	position: absolute;
+	bottom: 200px;
+	left: 50%;
+	width: 37px;
+	height: 37px;
+	opacity: 0;
+	background-color: gray;
+	border-radius: 50%;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;	
+}
+
+.setting {
+	position: absolute;
+	bottom: 200px;
+	left: 50%;
+	width: 37px;
+	height: 37px;
+	opacity: 0;
+	background-color: gray;
+	border-radius: 50%;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;	
+}
+
+.sign {
+	position: absolute;
+	bottom: 200px;
+	left: 50%;
+	width: 37px;
+	height: 37px;
+	opacity: 0;
+	background-color: gray;
+	border-radius: 50%;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;	
+}
+
+#button:hover img {
+	display: inline;
+}
+
+#button:hover span {
+	display: inline;
+}
+
+#button:hover .sign {
+	width: 37px;
+	height: 37px;
+	bottom: 128px;
+	left: 51.5%;
+	background: url("assets/images/signin.png") no-repeat center;
+	background-color: gray;
+	opacity: 1;
+}
+
+#button:hover .setting {
+	opacity: 1;
+	background: url("assets/images/setting.png") no-repeat center;
+	background-color: gray;
+	width: 37px;
+	height: 37px;
+	bottom: 123px;
+	left: 48%;
+}
+
+#button:hover .mask {
+	opacity: 1;
+	background: url("assets/images/nomask.png") no-repeat center;
+	background-color: gray;
+	width: 37px;
+	height: 37px;
+	bottom: 228px;
+	left: 45%;
+}
+
+#button:hover .history {
+	opacity: 1;
+	position: absolute;
+	bottom: 190px;
+	left: 44%;
+	width: 35px;
+	height: 35px;
+	background: url("assets/images/history.png") no-repeat center;
+	background-color: gray;
+	border-radius: 50%;
+}
+
+#button:hover .message {
+	opacity: 1;
+	position: absolute;
+	bottom: 145px;
+	left: 45%;
+	width: 37px;
+	height: 37px;
+	background: url("assets/images/message.png") no-repeat center;
+	background-color: gray;
+	border-radius: 50%;
+}
+#button .message > span {
+	opacity: 0;
+	position: relative;
+	display: block;
+	color: white;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	left: 30px;
+	top: -2px;
+	background-color: red;
+}
+
+#button:hover .message > span{
+	opacity: 1;
+}
+#button:hover .info {
+	bottom: 250px;
+	opacity: 1;
+	width: 130px;
+	height: 130px;
+	left: 45.2%;
+	margin-left: 20px;
+	-webkit-animation:all 0.4s ease-in-out 2s;
+	animation-delay:all 2s;
+}
+
+#button:hover .apb {
+	background: url("assets/images/atplus_green.png") no-repeat center;
+	background-size: 80%;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: rgba(48, 63, 159, 1);
+	bottom: 180px;
+	margin-left: -10px;
+}

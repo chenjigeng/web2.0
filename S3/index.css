@@ -1,0 +1,205 @@
+body {
+	text-align:  center;
+	font-weight: bold;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#info-bar {
+	line-height: 110px;
+	font-size: 35px;
+	color: rgb(0, 255, 255);
+	opacity: 0;
+	width: 0;
+	height: 0;
+	left: 50%;
+	overflow: hidden;
+	position: absolute;
+	bottom: 120px;
+	margin-left: 10px;
+	border-radius:50%;
+	-webkit-transition: all 0.2s ease-in-out 0.2s;
+    -moz-transition: all 0.2s ease-in-out 0.2s;
+    -ms-transition: all 0.2s ease-in-out 0.2s;
+    -o-transition: all 0.2s ease-in-out 0.2s;
+    transition: all 0.2s ease-in-out 0.2s;
+}
+
+#assert-area:hover #info-bar {
+	width: 130px;
+	opacity: 1;
+	height: 130px;
+	bottom: 220px;
+	margin-left: -50px;
+	background-color: gray;
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; 
+}
+
+.apb {
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	background: url("assets/images/atplus_white.png") no-repeat center;
+	background-color: #999fd3;
+	left: 50%;
+	bottom: 140px;
+	border-radius: 50%;
+	-webkit-transition: all 0.2s ease-in-out 0.5s;
+    -moz-transition: all 0.2s ease-in-out 0.5s;
+    -ms-transition: all 0.2s ease-in-out 0.5s;
+    -o-transition: all 0.2s ease-in-out 0.5s;
+    transition: all 0.2s ease-in-out 0.5s;
+}
+
+#assert-area:hover .apb {
+	width: 80px;
+	height: 80px;
+	bottom: 120px;
+	background: url("assets/images/atplus_green.png") no-repeat center;
+	background-color: rgba(48, 63, 159, 1);
+	margin-left: -20px;
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; 
+}
+
+#control-ring-container li{
+	line-height: 34px;
+	text-align: center;
+	font-size: 23px;
+	color: #0CF9AE;
+	border-radius: 50%;
+	position: absolute;
+	height: 35px;	
+	width: 35px;
+	left: 50%;
+	bottom: 140px;
+	opacity: 0;
+	-webkit-transition: all 0.2s ease-in-out 0.2s;
+    -moz-transition: all 0.2s ease-in-out 0.2s;
+    -ms-transition: all 0.2s ease-in-out 0.2s;
+    -o-transition: all 0.2s ease-in-out 0.2s;
+    transition: all 0.2s ease-in-out 0.2s;
+}
+
+#assert-area:hover #control-ring-container li {
+	opacity: 1;
+}
+
+#assert-area:hover .mask {
+	background-color: blue;
+	margin-left: -60px;
+	bottom: 190px;
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; 
+}
+
+#assert-area:hover .history {
+	background-color: blue;
+	margin-left: -75px;
+	bottom: 140px;
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; 
+}
+
+#assert-area:hover .message {
+	background-color: blue;
+	margin-left: -62px;
+	bottom: 93px;
+	width: 35px;
+	height: 35px;
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; 
+}
+
+#assert-area:hover .setting {
+	background-color: blue;
+	margin-left: -15px;
+	bottom: 65px;
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; 
+}
+
+#assert-area:hover .sign {
+	background-color: blue;
+	margin-left: 33px;
+	bottom: 70px;
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; 
+}
+
+.button {
+	text-align: center;
+	font-size: 1.1em;
+}
+
+#button:hover {
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	margin-left: -125px;
+}
+
+#button:hover #assert-area {
+	border-radius: 50%;
+	width: 180px;
+    height: 220px;
+    margin-left: 44px;
+    margin-top: -24px;
+}
+
+#control-ring-container span {
+	line-height: 24px;
+	opacity: 1;
+	position: relative;
+	display: block;
+	color: white;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	left: 23px;
+	top: -42px;
+	background-color: red;
+	font-size: 16px;
+}
+
+#control-ring-container #control-ring li.gray {
+	background-color: gray;
+}
+
+#button #assert-area #info-bar.blue {
+	background-color: blue;
+}
+
+#sequence {
+	bottom: 110px;
+}
+
+#bottom-positioner #assert-area .gray {
+	background-color: gray;
+}
