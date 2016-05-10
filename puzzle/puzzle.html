@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fifteen Puzzle</title>
+		<meta charset = 'utf-8' />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<script type="text/javascript" src = "js/index.js"></script>
+		<script type="text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.js"></script>
+	</head>
+	<body>
+		<div id = 'all'>
+		<h1>拼图游戏</h1>
+		<!--显示时间与步数-->
+		<div id = 'show'>
+			时间<input type = 'text' value = '0' id = 'time' size = '4' disabled="disabled"/>
+			步数<input type = 'text' value = '0' id = 'result' size = '4' disabled="disabled"/>
+		</div>
+		<!--拼图-->
+		<div id = 'puzzle'>
+			<div id = 'content'>
+			</div>
+		</div>
+		<!--控制键-->
+		<div id = 'control'>
+			<button id = 'start'>开始游戏</button>
+			<button id = 'change'>更换图案</button>
+			<button id = 'harder'>增加难度</button>
+		</div>
+		<p>温馨提示：按S开始游戏/复原图片，按C改变图案，按D改变游戏难度，按上下左右移动拼图,也可以自己选择图片</p>
+		<!--显示效果-->
+		<div id = 'show-result'>
+			<div id = 'show-re'></div>
+			最终效果
+		</div>
+		<input type = "file" id = 'upload'> </input>
+		</div>
+	</body>
+</html>
